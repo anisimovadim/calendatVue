@@ -3,6 +3,7 @@ const props = defineProps({
   selectedLanguage: Number,
   date: String
 });
+
 const emits = defineEmits(['update:selectedLanguage', 'update:date']);
 
 const updateLanguage = (event) => {

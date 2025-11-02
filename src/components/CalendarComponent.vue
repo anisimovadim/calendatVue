@@ -2,9 +2,7 @@
 import { ref, computed } from 'vue';
 
 const props = defineProps({
-  language: {
-    type: Number,
-  }
+  language: Number
 })
 const emits = defineEmits(['dateSelected']);
 
